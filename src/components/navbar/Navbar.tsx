@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
@@ -17,28 +18,16 @@ return (
           <div className="text-gray-600 dark:text-gray-300 lg:pr-4">
             <ul className="space-y-6 tracking-wide font-medium text-base lg:text-sm lg:flex lg:space-y-0">
               <li>
-                <a
-                  href="#"
-                  className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight"
-                >
-                  <span>Home</span>
-                </a>
+                 <Link to='/home' className='block md:px-4 transition hover:text-primary dark:hover:text-primaryLight'>Home</Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight"
-                >
-                  <span>Portfolio</span>
-                </a>
+                <Link to='/catalogo' className='block md:px-4 transition hover:text-primary dark:hover:text-primaryLight'>Produtos</Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight"
-                >
-                  <span>Services</span>
-                </a>
+                <Link to='/categorias' className='block md:px-4 transition hover:text-primary dark:hover:text-primaryLight'>Categoria</Link>
+              </li>
+              <li>
+                <Link to='/cadastroCategoria' className='block md:px-4 transition hover:text-primary dark:hover:text-primaryLight'>Nova Categoria</Link>
               </li>
             </ul>
           </div>

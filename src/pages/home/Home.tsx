@@ -16,7 +16,7 @@ function Home() {
         Melhores produtos com os piores preços
       </p>
 
-      <div className='flex flex-wrap items-center justify-between space-x-3'>
+      <div className='flex flex-wrap items-center justify-between'>
       <a
         href="#"
         className="font-montserrat text-white sm:font-xl uppercase py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg bg-green-900 hover:bg-green-800 mt-8 sm:mt-16"
